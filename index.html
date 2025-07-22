@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noetic Resonance Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="notification-bar">
+    <span id="time-display">--:--</span>
+    <span class="weather-widget">72°F | Partly Cloudy</span>
+  </div>
+  <div class="ascii-banner">
+{ E C H O   O S }
+ _____  _                ___  ____  
+| ____|| |  ___  ___    / _ \|  _ \ 
+|  _|  | | / _ \/ _ \  | | | | | | |
+| |___ | ||  __/  __/  | |_| | |_| |
+|_____||_| \___|\___|___\___/|____/ 
+                     |_____|        
+  </div>
+  <hr class="divider" />
+  <div class="screen" id="screen-area">
+    <a href="#" class="app-link">
+      <div class="app-icon" style="background:linear-gradient(135deg,#fbff00,#01fff3 65%,#3200ff);"></div>
+      <span class="app-label">Clock</span>
+    </a>
+    <a href="#" class="app-link">
+      <div class="app-icon" style="background:linear-gradient(135deg,#ff0080,#00ff73 60%,#005eff);"></div>
+      <span class="app-label">Notes</span>
+    </a>
+    <a href="#" class="app-link">
+      <div class="app-icon" style="background:linear-gradient(135deg,#24e8ff,#3300ad 80%,#ff9811);"></div>
+      <span class="app-label">Gallery</span>
+    </a>
+    <a href="#resonance" id="resonanceLink" class="app-link">
+      <div class="app-icon" style="background:linear-gradient(135deg,#e800ff,#00ffab 78%,#0066ff);"></div>
+      <span class="app-label">Resonance</span>
+    </a>
+  </div>
+  <div class="dock">
+    <button class="dock-btn" id="menuBtn" title="Open Menu">
+      <svg width="32" height="32" viewBox="0 0 32 32">
+        <rect x="6" y="8" width="20" height="3" rx="1.3" fill="#00ffd0"/>
+        <rect x="6" y="15" width="20" height="3" rx="1.3" fill="#00ffd0"/>
+        <rect x="6" y="22" width="20" height="3" rx="1.3" fill="#00ffd0"/>
+      </svg>
+      <span class="glyph-label">Menu</span>
+    </button>
+    <button class="dock-btn" title="Home">
+      <svg width="34" height="34" viewBox="0 0 34 34">
+        <rect x="2" y="5" width="30" height="24" rx="10" fill="#310067" />
+        <circle cx="17" cy="17" r="7" fill="#00ffd0" />
+      </svg>
+      <span class="glyph-label">Home</span>
+    </button>
+    <button class="dock-btn" title="Back">
+      <svg width="34" height="34" viewBox="0 0 34 34">
+        <polygon points="20,8 12,17 20,26" fill="#00ffd0"/>
+      </svg>
+      <span class="glyph-label">Return</span>
+    </button>
+  </div>
+  <div id="contextMenu" class="context-menu">
+    <button>Wallpapers</button>
+    <button>Widgets</button>
+    <button>Home Settings</button>
+  </div>
+  <div class="menu-overlay" id="menuOverlay"></div>
+  <nav class="menu-panel" id="menuPanel">
+    <h2>Echo OS Menu</h2>
+    <ul>
+      <li>Wallpapers</li>
+      <li>Widgets</li>
+      <li>Store / Buy</li>
+      <li>Settings</li>
+      <li>About</li>
+      <li>Sign Out</li>
+    </ul>
+  </nav>
+  <div id="resonance-content">
+    <button id="close-article">Close</button>
+    <header>
+      <h1>The Prototype Noetic Resonance Clock</h1>
+      <div class="lead">
+        A tool for healing trauma by mapping and reclaiming resonant moments of the soul across time
+      </div>
+    </header>
+    <div class="section">
+      <h2>Understanding Resonance as a Healing Experience</h2>
+      <p><strong>Resonance</strong> is the deeply human, biological experience where our emotional frequencies align—creating a sense of mutual connection and safety. When two people truly attune to one another’s feelings, a profound sense of being understood—of <em>empathy</em> and "feeling felt"—arises. Far from being poetic, this attunement has powerful benefits: it soothes the nervous system, fosters trust, and nourishes the brain and heart.</p>
+      <blockquote>“Tuning into another person’s emotional state in a caring way is profoundly healing for our brains and hearts.”<br>— Sarah Peyton</blockquote>
+      <p>But <strong>resonance</strong> is larger than mere human relationship. In physics, resonance describes the synchronization of vibrations between objects—energy coming into alignment. <em>Noetic resonance</em> refers to an intuitive, inner experience of this universal connectedness, the felt sense that everything has a frequency that can come into sync. Modern consciousness research suggests that recognizing interconnection can give us access to information and energy beyond ordinary time and space.</p>
+      <p><strong>Embracing resonance as real</strong> allows us to deliberately use it for healing. When we acknowledge how profoundly our hearts and minds can “vibrate” in tune with others—and with our own past selves—we set the stage for powerful healing and integration.</p>
+    </div>
+    <div class="section">
+      <h2>Trauma, Fragmentation, and the Loss of Self-Resonance</h2>
+      <p>Traumatic experiences disrupt our resonance and leave us feeling <strong>disconnected</strong>—from others, and from lost parts of ourselves. In the moment of trauma, overwhelming pain or fear often causes a kind of inner split. Psychology describes this as <em>dissociation</em>, where part of the mind “detaches” to survive. Many indigenous traditions call it <em>soul loss</em>: “Whenever we suffer an emotional or physical trauma, a part of our soul flees the body in order to survive the experience.” In this sense, the <strong>soul</strong> is our essence, the spark that keeps us alive and whole.</p>
+      <blockquote>“The lost fragment of self does not return on its own; it remains stuck in the time and place of trauma, leaving us diminished or ‘not quite the same’ afterward.”</blockquote>
+      <p>Unhealed trauma continues to echo in the present. Triggers—a sound, sight, or situation—can transport us back to old terror as if the event were happening again. This powerful resonance with the past means a part of us still lives out that distressing moment.</p>
+      <p>Trauma also makes it difficult to resonate with others in the present. When the nervous system is in survival mode, a person’s sense of connection is fractured. Healing must therefore focus on <strong>integrating those soul fragments and restoring resonance</strong>—with oneself, with others, and with the world.</p>
+    </div>
+    <div class="section">
+      <h2>Mapping Resonant Moments Across a Lifetime</h2>
+      <p>The <strong>Noetic Resonance Clock</strong> addresses trauma by helping individuals <strong>identify and track key moments of resonance—lost or gained—across time</strong>. It acts as a personalized timeline (“clock”) of emotionally significant experiences. Many of these are trauma events—points where a part of the heart and soul “stayed behind.” Others may be profound, positive, or mystical moments of connection that one wishes to reclaim.</p>
+      <p>By arranging these moments in chronological order, you create a map of your inner landscape. This visual organization helps:</p>
+      <ul>
+        <li>Identify patterns and repeated wounds</li>
+        <li>Track healing progress</li>
+        <li>Recognize triggers and connections between life events</li>
+      </ul>
+      <p>Unlike an ordinary timeline, each moment on the <strong>resonance clock</strong> becomes an active energy node in your story. Marking it acknowledges: “This part of my life is calling for healing.” Even if unseen, resonance is validated, and the mere act of acknowledgment begins to ease the hold of past pain as those wounded parts are finally witnessed.</p>
+    </div>
+    <div class="section">
+      <h2>Healing Through Resonance and Time Travel</h2>
+      <p>The true healing power of the noetic resonance clock comes when you <strong>“time-travel” with resonance</strong> to revisit significant moments. Instead of being hijacked by triggers, you consciously and compassionately return to a memory, bringing your present heart and wisdom to your past self.</p>
+      <blockquote>“Bringing resonance and accompaniment back to our wounded selves is the key to healing brains that have been fragmented by traumatic experience.”<br>— Sarah Peyton</blockquote>
+      <p>The process typically follows these steps:</p>
+      <ol class="step-list">
+        <li><strong>Identify the Resonant Moment:</strong> Choose a memory on your resonance clock—a traumatic or powerfully charged experience. Acknowledge that your past self from this time needs care.</li>
+        <li><strong>Prepare a Safe, Compassionate Mindset:</strong> Find safety in the present. Invoke a “resonating self-witness”—your inner compassionate companion, a loving figure, or symbol—to join you on this journey.</li>
+        <li><strong>Revisit the Memory with Resonance:</strong> Gently return in your mind to the chosen moment. Notice your past self’s feelings, and bring in the voice of the witness, offering empathic validation, comfort, and presence.</li>
+        <li><strong>Retrieve and Integrate the Lost Part:</strong> When the connection is made, invite your past self to join you in the present. Imagine embracing them and bringing them out of the pain and into now, reclaiming that soul fragment.</li>
+        <li><strong>Reflect and Record the Change:</strong> Return to the present, notice any inner shifts, and record the experience on your resonance clock. Each update transforms points of pain into moments of rescue and self-compassion.</li>
+      </ol>
+      <p>Repeating this process turns the resonance clock into a <strong>living record of healing</strong>, where every successful “time travel” brings more of your lost vitality and wholeness back online.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
